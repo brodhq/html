@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "@geislabs/html-fetch",
-    "version": "0.0.54",
+    "version": "0.0.55",
     "description": "> TODO: description",
     "author": "mads hargreave <mads.hargreave@gmail.com>",
     "homepage": "",
@@ -24,10 +24,9 @@
         "build": "tsc",
         "watch": "tsc --watch"
     },
-    "dependencies": {},
     "devDependencies": {
         "@geislabs/fetch": "^0.0.55",
-        "@geislabs/html-type": "^0.0.47",
+        "@geislabs/html-type": "^0.0.55",
         "@geislabs/protocol": "^0.0.48"
     }
 }
