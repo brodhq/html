@@ -66,4 +66,8 @@ export class HtmlPathImpl implements HtmlPath {
     [Symbol.iterator](): Iterator<HtmlPath> {
         return toIterator(this.config)
     }
+
+    valueOf() {
+        return this.toRaw()
+    }
 }
