@@ -1,0 +1,35 @@
+{
+    "private": false,
+    "name": "@geislabs/html",
+    "version": "0.0.54",
+    "description": "> TODO: description",
+    "author": "mads hargreave <mads.hargreave@gmail.com>",
+    "homepage": "",
+    "repository": "git://github.com/geislabs/html.git",
+    "license": "ISC",
+    "main": "dist/index.js",
+    "directories": {
+        "dist": "dist",
+        "test": "test"
+    },
+    "files": [
+        "dist"
+    ],
+    "publishConfig": {
+        "registry": "http://registry.npmjs.org/",
+        "access": "public"
+    },
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "tsc",
+        "watch": "tsc --watch"
+    },
+    "dependencies": {
+        "@geislabs/fetch": "^0.0.55",
+        "@geislabs/html-fetch": "^0.0.54",
+        "@geislabs/html-type": "^0.0.47",
+        "@geislabs/protocol": "^0.0.48",
+        "cheerio": "^1.0.0-rc.9",
+        "cheerio-get-css-selector": "^2.0.0"
+    }
+}
