@@ -29,8 +29,8 @@
         "cheerio-get-css-selector": "^2.0.0"
     },
     "devDependencies": {
+        "@geislabs/file": "^0.0.60",
         "@geislabs/geis-core": "^0.0.47",
-        "@geislabs/geis-file": "^0.0.47",
         "@geislabs/geis-image": "^0.0.47",
         "@geislabs/geis-type": "^0.0.47"
     }

@@ -1,4 +1,4 @@
-import { LocalFileAdapter } from '@geislabs/geis-file'
+import { LocalFileAdapter } from '@geislabs/file'
 import path from 'path'
 import fs from 'fs'
 import rimraf from 'rimraf'

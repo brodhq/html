@@ -1,4 +1,4 @@
-import { create as createFile, FileAdapter } from '@geislabs/geis-file'
+import { create as createFile, FileAdapter } from '@geislabs/file'
 import { HtmlPath } from '../htmlTypes'
 
 export function toFile(adapter: FileAdapter, path: HtmlPath) {
