@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/geislabs/json">
+  <a href="https://github.com/geislabs/html">
     <img alt="geis" src="https://via.placeholder.com/1050x500" width="435">
   </a>
 </p>
@@ -9,17 +9,17 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@geislabs/json">
-    <img alt="Hex Version" src="https://img.shields.io/npm/v/@geislabs/json.svg">
+  <a href="https://www.npmjs.com/package/@geislabs/html">
+    <img alt="Hex Version" src="https://img.shields.io/npm/v/@geislabs/html.svg">
   </a>
-  <a href="https://github.com/geislabs/json/actions">
-    <img alt="CI Status" src="https://github.com/geislabs/json/workflows/ci/badge.svg">
+  <a href="https://github.com/geislabs/html/actions">
+    <img alt="CI Status" src="https://github.com/geislabs/html/workflows/ci/badge.svg">
   </a>
   <a href="https://opensource.org/licenses/Apache-2.0">
     <img alt="Apache 2 License" src="https://img.shields.io/npm/l/geis">
   </a>
-  <a href="https://codecov.io/gh/geislabs/json">
-    <img src="https://codecov.io/gh/geislabs/json/branch/master/graph/badge.svg?token=CYpB9H2ah3"/>
+  <a href="https://codecov.io/gh/geislabs/html">
+    <img src="https://codecov.io/gh/geislabs/html/branch/master/graph/badge.svg?token=CYpB9H2ah3"/>
   </a>
 </p>
 
