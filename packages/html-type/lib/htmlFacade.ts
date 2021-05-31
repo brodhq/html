@@ -1,4 +1,4 @@
-import { PendingFile } from '@geislabs/geis-file'
+import { PendingFile } from '@geislabs/file'
 import autobind from 'autobind-decorator'
 import assert from 'assert'
 import { toBoolean } from './boolean/booleanHelpers'
