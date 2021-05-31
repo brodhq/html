@@ -1,4 +1,4 @@
-import { FileAdapter } from '@geislabs/geis-file'
+import { FileAdapter } from '@geislabs/file'
 import { Cheerio, Node, CheerioAPI } from 'cheerio'
 import { HtmlPath } from './htmlTypes'
 import { ImageAdapter } from './images/imageAdapter'
