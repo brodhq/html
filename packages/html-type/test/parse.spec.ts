@@ -4,7 +4,7 @@ describe('parse', () => {
     test('simple', () => {
         expect(
             Html(`<html><div class="value">hello</div></html>`)
-                .parse('.value')
+                .get('.value')
                 .toString()
         ).toBe('hello')
     })
@@ -23,8 +23,8 @@ describe('parse', () => {
             Html(
                 `<html><div class="outer"><div class="inner">hello</div></div></html>`
             )
-                .parse('.outer')
-                .parse('.inner')
+                .get('.outer')
+                .get('.inner')
                 .toString()
         ).toBe('hello')
     })
@@ -43,8 +43,8 @@ describe('parse', () => {
                         </ul>
                     </html>`
                 )
-                    .parse('ul.items')
-                    .parse('.value'),
+                    .get('ul.items')
+                    .get('.value'),
             ].map((item) => item.toInteger())
         ).toStrictEqual([1, 2, 3, 4, 5])
     })

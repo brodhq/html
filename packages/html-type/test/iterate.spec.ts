@@ -12,13 +12,13 @@ describe('iterate', () => {
                             <li>3</li>
                         </ul>
                     </html>`
-                ).parse('ul > li'),
+                ).get('ul > li'),
             ].map((path) => path.toInteger())
         ).toStrictEqual([1, 2, 3])
     })
     test('empty', () => {
         expect(
-            [...Html(`<html></html>`, '.value').parse('ul > li')].map((path) =>
+            [...Html(`<html></html>`, '.value').get('ul > li')].map((path) =>
                 path.toInteger()
             )
         ).toStrictEqual([])

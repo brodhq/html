@@ -1,20 +1,14 @@
-import { Castable, ErrorType, MaybeType } from '@geislabs/geis-type'
-import { BooleanType, IntegerType, StringType } from '@geislabs/geis-core'
-import { ImageType } from '@geislabs/geis-image'
+import { PendingFile } from '@geislabs/file'
 import { LinkType } from './link/linkTypes'
-import { FileType } from './file/fileTypes'
 
-export interface HtmlPath
-    extends Iterable<HtmlPath>,
-        Castable<
-            | MaybeType<StringType>
-            | ErrorType<IntegerType>
-            | ErrorType<BooleanType>
-            | ErrorType<LinkType>
-            | ErrorType<FileType>
-            | ErrorType<ImageType>
-        > {
-    parse: (selector: string) => HtmlPath
+export interface HtmlPath extends Iterable<HtmlPath> {
+    toString: () => string | null
+    toInteger: () => number | Error | null
+    toBoolean: () => boolean | Error | null
+    toLink: () => LinkType | Error | null
+    toFile: () => PendingFile | Error | null
+    toImage: () => PendingFile | Error | null
+    get: (selector: string) => HtmlPath
     toArray: () => HtmlPath[]
     toRaw: () => string
     valueOf: () => string

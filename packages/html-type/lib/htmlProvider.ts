@@ -27,7 +27,7 @@ export function Html(
     return provide(selector)
 }
 
-function proxify<T extends object & { parse: (selector: string) => T }>(
+function proxify<T extends object & { get: (selector: string) => T }>(
     value: T
 ): T {
     return new Proxy<T>(value, {
@@ -36,7 +36,7 @@ function proxify<T extends object & { parse: (selector: string) => T }>(
                 // @ts-expect-error
                 return Reflect.get(...arguments)
             }
-            return value.parse(prop.toString())
+            return value.get(prop.toString())
         },
     })
 }

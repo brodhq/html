@@ -59,7 +59,7 @@ export class HtmlPathImpl implements HtmlPath {
         return this.config.image.create(uniqueSelector)
     }
 
-    parse(selector: string) {
+    get(selector: string) {
         return this.config.provide(this.config.node.find(selector))
     }
 
