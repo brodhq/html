@@ -1,4 +1,3 @@
-import { Integer } from '@geislabs/geis-core'
 import { Cheerio, Node } from 'cheerio'
 
 export function toInteger(node: Cheerio<Node>): number | Error | null {
@@ -7,6 +6,8 @@ export function toInteger(node: Cheerio<Node>): number | Error | null {
     }
     const value = node.text()
     const number = Number(value)
-    const parsed = Integer().schema.safeParse(number)
-    return parsed.success ? parsed.data : parsed.error
+    if (isNaN(number)) {
+        return new Error('Not an integer')
+    }
+    return number
 }
