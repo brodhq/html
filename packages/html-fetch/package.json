@@ -25,8 +25,8 @@
         "watch": "tsc --watch"
     },
     "devDependencies": {
-        "@geislabs/fetch": "^0.0.55",
+        "@geislabs/fetch": "^0.0.61",
         "@geislabs/html-type": "^0.0.67",
-        "@geislabs/protocol": "^0.0.48"
+        "@geislabs/protocol": "^0.0.50"
     }
 }
