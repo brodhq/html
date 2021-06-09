@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "@geislabs/html",
-    "version": "0.0.76",
+    "version": "0.0.77",
     "description": "> TODO: description",
     "author": "mads hargreave <mads.hargreave@gmail.com>",
     "homepage": "",
@@ -26,8 +26,8 @@
     },
     "dependencies": {
         "@geislabs/fetch": "^0.0.61",
-        "@geislabs/html-fetch": "^0.0.76",
-        "@geislabs/html-type": "^0.0.76",
+        "@geislabs/html-fetch": "^0.0.77",
+        "@geislabs/html-type": "^0.0.77",
         "@geislabs/protocol": "^0.0.50",
         "cheerio": "^1.0.0-rc.9",
         "cheerio-get-css-selector": "^2.0.0"
