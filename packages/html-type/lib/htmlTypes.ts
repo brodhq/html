@@ -16,7 +16,7 @@ export interface HtmlPath extends Iterable<HtmlPath> {
      * // => 'some title'
      * ```
      */
-    get: (selector: string) => HtmlPath
+    get(selector: string): HtmlPath
     /**
      * Return string value
      * @example
@@ -25,7 +25,7 @@ export interface HtmlPath extends Iterable<HtmlPath> {
      * // => 'some title'
      * ```
      */
-    toString: () => string | null
+    toString(): string | null
     /**
      * Return string value
      * @example
@@ -34,7 +34,7 @@ export interface HtmlPath extends Iterable<HtmlPath> {
      * // => 5
      * ```
      */
-    toInteger: () => number | Error | null
+    toInteger(): number | Error | null
     /**
      * Return boolean value
      * @example
@@ -43,7 +43,7 @@ export interface HtmlPath extends Iterable<HtmlPath> {
      * // => true
      * ```
      */
-    toBoolean: () => boolean | Error | null
+    toBoolean(): boolean | Error | null
     /**
      * Return a link
      * @example
@@ -52,10 +52,10 @@ export interface HtmlPath extends Iterable<HtmlPath> {
      * // => { name: 'my link', href: 'http://example.com' }
      * ```
      */
-    toLink: () => LinkType | Error | null
-    toFile: () => PendingFile | Error | null
-    toImage: () => PendingFile | Error | null
-    toArray: () => HtmlPath[]
-    toRaw: () => string
-    valueOf: () => string
+    toLink(): LinkType | Error | null
+    toFile(): PendingFile | Error | null
+    toImage(): PendingFile | Error | null
+    toArray(): HtmlPath[]
+    toRaw(): string
+    valueOf(): string
 }
