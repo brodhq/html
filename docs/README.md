@@ -47,7 +47,7 @@ Extract a nested html value
 
 **`example`**
 ```typescript
-const html = Html("<html><h1>some title</h1></html>").get('h1').toString()
+const html = Html('<html><h1>some title</h1></html>').get('h1').toString()
 // => 'some title'
 ```
 
@@ -89,7 +89,7 @@ Return boolean value
 
 **`example`**
 ```typescript
-const html = Html("<html><span>true</span></html>", 'span').toBoolean()
+const html = Html('<html><span>true</span></html>', 'span').toBoolean()
 // => true
 ```
 
@@ -139,7 +139,7 @@ Return string value
 
 **`example`**
 ```typescript
-const html = Html("<html><span>5</span></html>", 'span').toInteger()
+const html = Html('<html><span>5</span></html>', 'span').toInteger()
 // => 5
 ```
 
@@ -161,7 +161,7 @@ Return a link
 
 **`example`**
 ```typescript
-const html = Html("<html><a href="http://example.com">my link</a></html>", 'a').toLink()
+const html = Html('<html><a href="http://example.com">my link</a></html>', 'a').toLink()
 // => { name: 'my link', href: 'http://example.com' }
 ```
 
@@ -197,7 +197,7 @@ Return string value
 
 **`example`**
 ```typescript
-const html = Html("<html><h1>some title</h1></html>", 'h1').toString()
+const html = Html('<html><h1>some title</h1></html>', 'h1').toString()
 // => 'some title'
 ```
 
