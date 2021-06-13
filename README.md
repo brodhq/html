@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://krans.io">
-    <img alt="krans" src="https://raw.githubusercontent.com/kransio/assets/master/icons/png/icon-header-repository.png" height="64" width='auto'>
+  <a href="https://pansar.io">
+    <img alt="pansar" src="https://raw.githubusercontent.com/pansarhq/assets/master/icons/png/icon-header-repository.png" height="64" width='auto'>
   </a>
 </p>
 
@@ -9,20 +9,20 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@krans/json">
-    <img alt="Hex Version" src="https://img.shields.io/npm/v/@kransio/html.svg">
+  <a href="https://www.npmjs.com/package/@pansar/json">
+    <img alt="Hex Version" src="https://img.shields.io/npm/v/@pansarhq/html.svg">
   </a>
-  <a href="https://github.com/kransio/html/actions">
-    <img alt="CI Status" src="https://github.com/kransio/html/workflows/ci/badge.svg">
+  <a href="https://github.com/pansarhq/html/actions">
+    <img alt="CI Status" src="https://github.com/pansarhq/html/workflows/ci/badge.svg">
   </a>
   <a href="https://opensource.org/licenses/Apache-2.0">
-    <img alt="Apache 2 License" src="https://img.shields.io/npm/l/krans">
+    <img alt="Apache 2 License" src="https://img.shields.io/npm/l/pansar">
   </a>
-  <a href="https://codecov.io/gh/kransio/html">
-    <img src="https://codecov.io/gh/kransio/html/branch/master/graph/badge.svg?token=CYpB9H2ah3"/>
+  <a href="https://codecov.io/gh/pansarhq/html">
+    <img src="https://codecov.io/gh/pansarhq/html/branch/master/graph/badge.svg?token=CYpB9H2ah3"/>
   </a>
 </p>
 
-**@kransio/html** is part of the **krans** ecosystem and was designed to work seamlessly with the [krans](https://krans.io) and its other components (but works great on its own or with other frameworks).
+**@pansarhq/html** is part of the **pansar** ecosystem and was designed to work seamlessly with the [pansar](https://pansar.io) and its other components (but works great on its own or with other frameworks).
 
-### Visit the [krans.io](https://krans.io) developer Portal for tutorials, documentation, and support
+### Visit the [pansar.io](https://pansar.io) developer Portal for tutorials, documentation, and support
